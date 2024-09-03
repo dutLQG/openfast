@@ -63,7 +63,7 @@ jobs:
         with:
           context: .
           file: ${{ env.DOCKERFILE_PATH }}
-          platforms: linux/amd64,linux/aarch64
+          platforms: linux/aarch64
           tags: |
             ${{ env.GH_REGISTRY }}:${{ github.event.inputs.tag }}
 # ${{ env.DOCKERHUB_REPOSITORY }}:${{ github.event.inputs.tag }}
