@@ -20,9 +20,9 @@ jobs:
     timeout-minutes: 300
     env:
       DOCKERFILE_PATH: share/docker/Dockerfile
-      DOCKERFILE_PERMALINK: https://raw.githubusercontent.com/OpenFAST/openfast/main/share/docker/Dockerfile
-      DOCKERHUB_REPOSITORY: nrel/openfast
-      GH_REGISTRY: ghcr.io/openfast/openfast
+      DOCKERFILE_PERMALINK: https://raw.githubusercontent.com/dutLQG/openfast/main/share/docker/Dockerfile
+      DOCKERHUB_REPOSITORY: dutLQG/openfast
+      GH_REGISTRY: ghcr.io/dutlqg/openfast
     permissions:
       contents: read
       packages: write
